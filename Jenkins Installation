@@ -6,3 +6,4 @@ TO INCLUDE THE JAVA INSTALLED DIRECTORY IN THE DEFAULT PATH VARIABLE WHERE ALL T
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
 echo $PATH
+This is to tell jenkins where the JAVA is present so that it can run Java commands.This path of JAVA_HOME is used in the "manage jenkins->tools" section in the jenkins console.

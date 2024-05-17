@@ -1,2 +1,8 @@
 Refer documentation -
 https://www.jenkins.io/doc/book/installing/linux/
+
+
+TO INCLUDE THE JAVA INSTALLED DIRECTORY IN THE DEFAULT PATH VARIABLE WHERE ALL THE DIRECTORIES OF EXECUTABLE FILES ARE PRESENT 
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin
+echo $PATH

@@ -87,7 +87,7 @@ Verify that the private key is correctly pasted and there are no extra spaces or
 Re-add the private key (if necessary):
 Delete the existing credentials.
 Re-add the SSH private key with the correct details.
-Step 5: Adjust SSHD Config on the Agent (if necessary)
+Step 5: Adjust SSHD Config on the Agent (if necessary)  (THIS STEP ACTUALLY WORKED)
 Check sshd_config settings:
 
 On the Jenkins agent, verify the SSH daemon configuration (/etc/ssh/sshd_config).
